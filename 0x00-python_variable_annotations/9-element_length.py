@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Module containing function element_length"""
-from typing import Iterable, Sequence, List, Tuple
+'''Task 9's module.
+'''
+from typing import Iterable, List, Sequence, Tuple
 
 
-def element_length(lst: Iterable[Sequence]
-                  ) -> List[Tuple[Sequence, int]]:
-    """Returns a list of tuples with the length of each element"""
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
+    '''Computes the length of a list of sequences.
+    '''
     return [(i, len(i)) for i in lst]
