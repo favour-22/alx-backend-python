@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""Module that contains a single function that adds two integers."""
+'''Task 0's module.
+'''
 
 
 def add(a: float, b: float) -> float:
-    """ Add two integers together."""
+    '''Adds two floating-point numbers.
+    '''
     return a + b
